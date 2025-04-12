@@ -1,0 +1,3 @@
+SELECT COUNT(*) FROM trips;
+SELECT * FROM trips LIMIT 10;
+
