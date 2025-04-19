@@ -1,0 +1,115 @@
+{
+  "type" : "record",
+  "name" : "trips",
+  "doc" : "Sqoop import of trips",
+  "fields" : [ {
+    "name" : "trip_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "trip_id",
+    "sqlType" : "4"
+  }, {
+    "name" : "vendor_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "vendor_id",
+    "sqlType" : "5"
+  }, {
+    "name" : "pickup_datetime",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "pickup_datetime",
+    "sqlType" : "93"
+  }, {
+    "name" : "dropoff_datetime",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "dropoff_datetime",
+    "sqlType" : "93"
+  }, {
+    "name" : "passenger_count",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "passenger_count",
+    "sqlType" : "5"
+  }, {
+    "name" : "trip_distance",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "trip_distance",
+    "sqlType" : "2"
+  }, {
+    "name" : "rate_code",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "rate_code",
+    "sqlType" : "5"
+  }, {
+    "name" : "store_and_fwd_flag",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "store_and_fwd_flag",
+    "sqlType" : "1"
+  }, {
+    "name" : "payment_type",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "payment_type",
+    "sqlType" : "5"
+  }, {
+    "name" : "fare_amount",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "fare_amount",
+    "sqlType" : "2"
+  }, {
+    "name" : "extra",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "extra",
+    "sqlType" : "2"
+  }, {
+    "name" : "mta_tax",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "mta_tax",
+    "sqlType" : "2"
+  }, {
+    "name" : "tip_amount",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "tip_amount",
+    "sqlType" : "2"
+  }, {
+    "name" : "tolls_amount",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "tolls_amount",
+    "sqlType" : "2"
+  }, {
+    "name" : "imp_surcharge",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "imp_surcharge",
+    "sqlType" : "2"
+  }, {
+    "name" : "total_amount",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "total_amount",
+    "sqlType" : "2"
+  }, {
+    "name" : "pickup_location_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "pickup_location_id",
+    "sqlType" : "5"
+  }, {
+    "name" : "dropoff_location_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "dropoff_location_id",
+    "sqlType" : "5"
+  } ],
+  "tableName" : "trips"
+}
