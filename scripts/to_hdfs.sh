@@ -18,4 +18,7 @@ sqoop import \
   --compression-codec org.apache.hadoop.io.compress.SnappyCodec \
   --m 1
 
+mkdir -p output
+mv *.avsc output/ 2>/dev/null || echo "ERROR: avsc generation"
+
 echo "Done"
