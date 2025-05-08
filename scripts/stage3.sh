@@ -13,7 +13,7 @@ MODEL2_PATH="project/models/model2"
 PRED1_PATH="project/output/model1_predictions"
 PRED2_PATH="project/output/model2_predictions"
 EVAL_PATH="project/output/evaluation"
-I w
+
 # Step 2: Preprocess data
 echo "Preprocessing data from Hive..."
 spark-submit scripts/preprocess_data.py \
@@ -38,7 +38,7 @@ spark-submit scripts/train_model2.py \
 
 # Step 5: Compare models
 echo "Comparing Model 1 and Model 2..."
-spark-submit scripts/compare_models.py \
+spark-submit --master yarn compare_models.py \
     --prediction1_path "$PRED1_PATH" \
     --prediction2_path "$PRED2_PATH" \
     --output_path "$EVAL_PATH"
