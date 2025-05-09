@@ -1,0 +1,3 @@
+model,RMSE,R2
+"LinearRegressionModel: uid=LinearRegression_eb028268bea9, numFeatures=15",3.705083671959646,0.4188106102072471
+"GBTRegressionModel: uid=GBTRegressor_9b18197766ee, numTrees=20, numFeatures=15",2.4930463132087293,0.7310154291486008

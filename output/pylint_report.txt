@@ -1,0 +1,154 @@
+************* Module build_projectdb
+build_projectdb.py:9:0: C0301: Line too long (114/100) (line-too-long)
+build_projectdb.py:29:0: C0305: Trailing newlines (trailing-newlines)
+build_projectdb.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+build_projectdb.py:6:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+build_projectdb.py:14:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+build_projectdb.py:18:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+build_projectdb.py:20:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+build_projectdb.py:24:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+build_projectdb.py:2:0: C0411: standard import "from pprint import pprint" should be placed before "import psycopg2 as psql" (wrong-import-order)
+build_projectdb.py:3:0: C0411: standard import "import os" should be placed before "import psycopg2 as psql" (wrong-import-order)
+************* Module compare_models
+compare_models.py:26:0: C0301: Line too long (101/100) (line-too-long)
+compare_models.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+compare_models.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module model
+model.py:38:0: C0304: Final newline missing (missing-final-newline)
+model.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+model.py:5:0: C0103: Constant name "team" doesn't conform to UPPER_CASE naming style (invalid-name)
+model.py:8:0: C0103: Constant name "warehouse" doesn't conform to UPPER_CASE naming style (invalid-name)
+model.py:11:17: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+model.py:2:0: W0611: Unused import logging (unused-import)
+model.py:2:0: C0411: standard import "import logging" should be placed before "from pyspark.sql import SparkSession" (wrong-import-order)
+************* Module preprocess_data
+preprocess_data.py:23:0: C0301: Line too long (111/100) (line-too-long)
+preprocess_data.py:24:0: C0301: Line too long (109/100) (line-too-long)
+preprocess_data.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:50:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:59:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:62:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:70:57: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:71:78: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:72:81: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:75:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:80:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:82:0: C0301: Line too long (101/100) (line-too-long)
+preprocess_data.py:84:87: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:86:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:91:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:97:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:98:0: C0301: Line too long (107/100) (line-too-long)
+preprocess_data.py:136:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:140:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:143:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:147:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:149:0: C0303: Trailing whitespace (trailing-whitespace)
+preprocess_data.py:154:0: C0304: Final newline missing (missing-final-newline)
+preprocess_data.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+preprocess_data.py:19:8: C0103: Attribute name "inputCol" doesn't conform to snake_case naming style (invalid-name)
+preprocess_data.py:20:8: C0103: Attribute name "maxVal" doesn't conform to snake_case naming style (invalid-name)
+preprocess_data.py:18:8: R1725: Consider using Python 3 style super() without arguments (super-with-arguments)
+preprocess_data.py:22:4: W0237: Parameter 'dataset' has been renamed to 'df' in overridden 'CyclicalTransformer._transform' method (arguments-renamed)
+preprocess_data.py:77:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+preprocess_data.py:122:0: C0116: Missing function or method docstring (missing-function-docstring)
+preprocess_data.py:7:0: C0411: standard import "import math" should be placed before "from pyspark.sql import SparkSession" (wrong-import-order)
+preprocess_data.py:8:0: C0411: standard import "import argparse" should be placed before "from pyspark.sql import SparkSession" (wrong-import-order)
+preprocess_data.py:9:0: C0411: standard import "import os" should be placed before "from pyspark.sql import SparkSession" (wrong-import-order)
+************* Module train_model1
+train_model1.py:19:0: C0301: Line too long (101/100) (line-too-long)
+train_model1.py:59:0: C0301: Line too long (102/100) (line-too-long)
+train_model1.py:90:0: C0301: Line too long (106/100) (line-too-long)
+train_model1.py:114:0: C0304: Final newline missing (missing-final-newline)
+train_model1.py:114:0: C0301: Line too long (104/100) (line-too-long)
+train_model1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+train_model1.py:32:0: C0116: Missing function or method docstring (missing-function-docstring)
+train_model1.py:65:6: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+train_model1.py:66:6: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+train_model1.py:9:0: C0411: standard import "import argparse" should be placed before "from pyspark.ml.regression import LinearRegression" (wrong-import-order)
+train_model1.py:10:0: C0411: standard import "import os" should be placed before "from pyspark.ml.regression import LinearRegression" (wrong-import-order)
+************* Module train_model2
+train_model2.py:22:0: C0301: Line too long (101/100) (line-too-long)
+train_model2.py:54:0: C0301: Line too long (102/100) (line-too-long)
+train_model2.py:108:0: C0301: Line too long (102/100) (line-too-long)
+train_model2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+train_model2.py:12:0: C0116: Missing function or method docstring (missing-function-docstring)
+train_model2.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+train_model2.py:60:6: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+train_model2.py:61:6: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+train_model2.py:114:6: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+train_model2.py:115:6: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+train_model2.py:7:0: W0611: Unused DoubleType imported from pyspark.sql.types (unused-import)
+train_model2.py:9:0: C0411: standard import "import argparse" should be placed before "from pyspark.sql import SparkSession" (wrong-import-order)
+train_model2.py:10:0: C0411: standard import "import os" should be placed before "from pyspark.sql import SparkSession" (wrong-import-order)
+train_model2.py:1:0: R0801: Similar lines in 2 files
+==train_model1:[100:113]
+==train_model2:[93:104]
+predictions.show()
+
+predictions.select("label", "prediction") \
+    .coalesce(1) \
+    .write \
+    .mode("overwrite") \
+    .format("csv") \
+    .option("sep", ",") \
+    .option("header", "true") \
+    .save(args.prediction_output_path)
+ (duplicate-code)
+train_model2.py:1:0: R0801: Similar lines in 2 files
+==train_model1:[31:48]
+==train_model2:[29:46]
+def array_to_vector(features):
+    return Vectors.dense(features)
+
+vector_udf = udf(array_to_vector, VectorUDT())
+
+# Apply UDF to convert features into a vector
+train_data = train_data.withColumn("features", vector_udf(col("features.values")))
+test_data = test_data.withColumn("features", vector_udf(col("features.values")))
+
+# Now use VectorAssembler on the features column
+assembler = VectorAssembler(inputCols=["features"], outputCol="assembled_features")
+
+# Transform data to create the 'assembled_features' column
+train_data = assembler.transform(train_data)
+test_data = assembler.transform(test_data)
+
+# Create Linear Regression Model (duplicate-code)
+train_model2.py:1:0: R0801: Similar lines in 2 files
+==train_model1:[15:27]
+==train_model2:[18:29]
+parser = argparse.ArgumentParser()
+parser.add_argument("--train_path", required=True, help="Path to training data (JSON)")
+parser.add_argument("--test_path", required=True, help="Path to test data (JSON)")
+parser.add_argument("--model_output_path", required=True, help="HDFS path to save the trained model")
+parser.add_argument("--prediction_output_path", required=True, help="HDFS path to save predictions")
+args = parser.parse_args()
+
+# Load train and test data from JSON
+train_data = spark.read.json(args.train_path)
+test_data = spark.read.json(args.test_path)
+ (duplicate-code)
+train_model2.py:1:0: R0801: Similar lines in 2 files
+==model:[11:18]
+==preprocess_data:[30:37]
+        .master("yarn")\
+        .config("hive.metastore.uris", "thrift://hadoop-02.uni.innopolis.ru:9883")\
+        .config("spark.sql.warehouse.dir", warehouse)\
+        .config("spark.sql.avro.compression.codec", "snappy")\
+        .enableHiveSupport()\
+        .getOrCreate()
+ (duplicate-code)
+train_model2.py:1:0: R0801: Similar lines in 2 files
+==train_model1:[5:12]
+==train_model2:[5:11]
+from pyspark.sql.functions import col, udf
+from pyspark.sql.types import DoubleType
+from pyspark.ml.linalg import Vectors, VectorUDT
+import argparse
+import os
+ (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 6.57/10 (previous run: 6.57/10, +0.00)
+
